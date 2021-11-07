@@ -1,0 +1,76 @@
+
+h1{
+	color: white;
+	background-color: green;
+	height: 60px;
+	text-align: center;
+}
+.stadt {
+	
+  box-shadow: 10px 10px 5px grey;	
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.berlin {
+	 box-shadow: 5px 5px 3px grey;
+  grid-column: 1;
+  grid-row: 1;
+}
+.bernau {
+	 box-shadow: 5px 5px 3px grey;
+  grid-column: 2;
+  grid-row: 1;
+}
+.brandenburg {
+	 box-shadow: 5px 5px 3px grey;
+  grid-column: 3;
+  grid-row: 1;
+}
+.bremen {
+	 box-shadow: 5px 5px 3px grey;
+  grid-column: 4;
+  grid-row: 1;
+}
+.bremerhaven {
+	 box-shadow: 5px 5px 3px grey;
+  grid-column: 1;
+  grid-row: 2;
+}
+.madrid {
+	 box-shadow: 5px 5px 3px grey;
+  grid-column: 2;
+  grid-row: 2;
+}
+.magdeburg {
+	 box-shadow: 5px 5px 3px grey;
+  grid-column: 3;
+  grid-row: 2;
+}
+.mainz {
+	 box-shadow: 5px 5px 3px grey;
+  grid-column: 4;
+  grid-row: 2;
+}
+.mannheim {
+	 box-shadow: 5px 5px 3px grey;
+  grid-column: 1;
+  grid-row: 3;
+}
+.marburg {
+	 box-shadow: 5px 5px 3px grey;
+  grid-column: 2;
+  grid-row: 3;
+}
+.newyork {
+	 box-shadow: 5px 5px 3px grey;
+  grid-column: 3;
+  grid-row: 3;
+}
+.stockholm {
+	 box-shadow: 5px 5px 3px grey;
+  grid-column: 4;
+  grid-row: 3;
+}
